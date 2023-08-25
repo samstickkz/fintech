@@ -1,0 +1,23 @@
+.home_right {
+  width: 22rem;
+  height: 30rem;
+
+  margin-top: 4rem;
+
+  overflow: hidden;
+  padding: 0rem 1.5rem 0rem 1.5rem;
+}
+
+/* .lower_btn{
+  gap: 1rem;
+  display: flex;
+  
+} */
+
+.homepagec {
+  justify-content: space-between;
+  display: flex;
+  grid-template-columns: 50% 50%;
+
+  margin-bottom: 4rem;
+}
