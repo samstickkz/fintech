@@ -22,15 +22,16 @@ const Homepage = () => {
               <GrStatusGood className="icons_color" />
               <p>Instant Transfer</p>
             </div>
-            <div>
+            <div className="test">
               <GrStatusGood className="icons_col" />
+
               <p>Instant Transfer</p>
-            </div>{" "}
+            </div>
             <div>
               <GrStatusGood className="icons_clors" />
 
               <p>Instant Transfer</p>
-            </div>{" "}
+            </div>
             <div>
               <GrStatusGood className="icons_colors" />
               <p>Instant Transfer</p>

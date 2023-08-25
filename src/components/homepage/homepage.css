@@ -44,6 +44,7 @@ p {
 .items_list div {
   display: flex;
   gap: 1rem;
+  align-items: center;
 }
 .icons_color {
   margin-top: 0.5rem;
@@ -54,4 +55,10 @@ p {
 }
 .comp {
   margin-right: 1rem;
+}
+.test {
+  display: flex;
+
+  /* align-content: center; */
+  align-items: center;
 }
