@@ -19,7 +19,7 @@ const Nav = () => {
         </div>
 
         <div className="r-btn">
-          <small className="btn_primary">Login</small>
+          <small className="btn_primary lgnbtn">Login</small>
           <button className="btn">Open Account</button>
         </div>
       </div>

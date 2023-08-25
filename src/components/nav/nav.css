@@ -1,29 +1,25 @@
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 32px;
-    overflow: hidden;
-   
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+  overflow: hidden;
 }
 
-.navcenter{
-    display: flex;
-    gap: 2rem;
-    font-size: 16px;
-    color: black;
+.navcenter {
+  display: flex;
+  gap: 2rem;
+  font-size: 16px;
+  color: black;
 }
-.navcenter a{
-    color: black;
-
+.navcenter a {
+  color: black;
 }
-.r-btn{
-    display: flex;
-    gap: 2rem;
-
+.lgnbtn {
+  margin-right: 1rem;
 }
 
-.logo{
-    color: var(--color-primary);
-    font-weight: 500w;
-    font-size:larger;
+.logo {
+  color: var(--color-primary);
+  font-weight: 500w;
+  font-size: larger;
 }
