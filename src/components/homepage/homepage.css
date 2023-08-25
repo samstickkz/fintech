@@ -20,6 +20,10 @@
   margin-bottom: 4rem;
 }
 
+.homepagec .icons_color {
+  color: var(--color-primary);
+}
+
 #homepage {
   margin-top: 144px;
 }
@@ -31,4 +35,23 @@
 p {
   margin-top: 16px;
   margin-bottom: 16px;
+}
+
+.items_list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.items_list div {
+  display: flex;
+  gap: 1rem;
+}
+.icons_color {
+  margin-top: 0.5rem;
+}
+
+.icons_col {
+  color: red;
+}
+.comp {
+  margin-right: 1rem;
 }
