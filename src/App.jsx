@@ -7,6 +7,7 @@ import Savings from "./components/saving/saving";
 import Notification from "./components/notification/notification";
 import Logofi from "./components/logo-fi/logofi";
 import Cards from "./components/cards/cards";
+import Testimonails from "./components/Testimonals/testimonials";
 
 const app = () => {
   return (
@@ -19,6 +20,7 @@ const app = () => {
       <Notification />
       <Logofi />
       <Cards />
+      <Testimonails />
     </>
   );
 };
