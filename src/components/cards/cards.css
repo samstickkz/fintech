@@ -12,6 +12,11 @@
   text-align: center;
 }
 
+.card h2 {
+  font-size: 70px;
+  line-height: normal;
+}
+
 .card-img {
   width: 500px;
   height: 500px;
