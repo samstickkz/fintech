@@ -1,0 +1,35 @@
+.div-left {
+  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  margin-bottom: 2rem;
+}
+.div-right {
+  width: 280px;
+  height: 700px;
+}
+.banking-con {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 10rem;
+}
+
+.left-features {
+  /* margin-bottom: 10rem; */
+}
+
+#banking {
+  margin-top: 15rem;
+}
+
+.box-features {
+  border: 1px solid var(--color-primary);
+
+  margin: 1rem 1rem 1rem 0;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+.ltn {
+  color: var(--color-primary);
+}

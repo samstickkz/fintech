@@ -33,7 +33,7 @@ const Homepage = () => {
               <p>Instant Transfer</p>
             </div>
             <div>
-              <GrStatusGood className="icons_colors" />
+              <GrStatusGood className="icons_color" />
               <p>Instant Transfer</p>
             </div>
           </div>

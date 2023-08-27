@@ -10,6 +10,7 @@
   margin-top: 64px;
   gap: 1rem;
   display: flex;
+  align-items: center;
 }
 
 .homepagec {
@@ -17,7 +18,7 @@
   display: flex;
   grid-template-columns: 50% 50%;
 
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 .homepagec .icons_color {
@@ -39,7 +40,8 @@ p {
 
 .items_list {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  /* grid-template-columns: 1fr 1fr; */
+  grid-template-columns: 50% 50%;
 }
 .items_list div {
   display: flex;
@@ -47,18 +49,13 @@ p {
   align-items: center;
 }
 .icons_color {
-  margin-top: 0.5rem;
+  color: blue;
 }
 
-.icons_col {
-  color: red;
-}
 .comp {
   margin-right: 1rem;
 }
 .test {
   display: flex;
-
-  /* align-content: center; */
   align-items: center;
 }
