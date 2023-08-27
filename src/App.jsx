@@ -5,6 +5,7 @@ import Banking from "./components/banking/banking";
 import Send from "./components/send and recieve/send";
 import Savings from "./components/saving/saving";
 import Notification from "./components/notification/notification";
+import Logofi from "./components/logo-fi/logofi";
 
 const app = () => {
   return (
@@ -15,6 +16,7 @@ const app = () => {
       <Send />
       <Savings />
       <Notification />
+      <Logofi />
     </>
   );
 };
