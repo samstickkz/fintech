@@ -1,0 +1,79 @@
+.noti_right {
+  width: 400px;
+  height: 578px;
+  overflow: hidden;
+  /* display: flex;  */
+  /* Use flexbox */
+  /* align-items: flex-end; */
+}
+.noti_right img {
+  max-width: 100%; /* Make sure the image doesn't exceed the container */
+  max-height: 100%; /* Make sure the image doesn't exceed the container */
+  width: auto;
+  height: auto;
+}
+.lower_btn {
+  margin-top: 64px;
+  gap: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.noti {
+  /* padding-top: 100px; */
+  justify-content: space-between;
+  display: flex;
+  grid-template-columns: 50% 50%;
+}
+
+.noti .icons_color {
+  color: var(--color-primary);
+}
+
+.noti_left {
+  line-height: normal;
+}
+
+.noti_left h2 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-size: 64px;
+}
+
+.noti_left p {
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.noti_list {
+  font-size: 16px;
+}
+.noti_list div {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.notifi {
+  height: 638px;
+}
+
+.goood {
+  color: var(--color-primary);
+}
+
+.goood-bg {
+  background: var(--color-primary-variant);
+  width: 26px;
+  height: 26px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.compare {
+  margin-top: 48px;
+  color: var(--color-primary);
+  font-weight: 400;
+}
