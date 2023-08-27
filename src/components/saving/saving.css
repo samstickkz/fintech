@@ -53,3 +53,8 @@
 .blue {
   background: var(--color-primary-variant);
 }
+
+.airplane {
+  height: 64px;
+  width: 64px;
+}
