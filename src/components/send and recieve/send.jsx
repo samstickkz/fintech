@@ -1,42 +1,53 @@
 import React from "react";
 import { GrStatusGood } from "react-icons/gr";
-
+import { GiLightningFrequency } from "react-icons/gi";
+import { AiOutlineCheckCircle } from "react-icons/ai";
+import { AiOutlineCheck } from "react-icons/ai";
 import transactions from "../../assets/transactions.jpg";
 import "./send.css";
 const Send = () => {
   return (
-    <section id="send">
-      <div className="container send">
-        <div className="send_left">
-          <h2>
-            Send & receive <br /> money instantly
-          </h2>
+    <section id="sendy">
+      <div className="sendi">
+        <div className="container send">
+          <div className="send_left">
+            <h2>
+              Send & receive <br /> money instantly
+            </h2>
 
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            <br /> sed do eiusmod tempor incididunt ut labore.
-          </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+              <br /> sed do eiusmod tempor incididunt ut labore.
+            </p>
 
-          <div className="send_list">
-            <div>
-              <GrStatusGood className="" />
-              <p>Instant Transfer</p>
-            </div>
-            <div className="">
-              <GrStatusGood className="" />
+            <div className="send_list">
+              <div>
+                <div className="good-bg">
+                  <AiOutlineCheck className="good" />
+                </div>
+                <p>Instant Transfer</p>
+              </div>
+              <div className="">
+                <div className="good-bg">
+                  <AiOutlineCheck className="good" />
+                </div>
 
-              <p>Instant Transfer</p>
-            </div>
-            <div>
-              <GrStatusGood className="" />
+                <p>Instant Transfer</p>
+              </div>
 
-              <p>Instant Transfer</p>
+              <div>
+                <div className="good-bg">
+                  <AiOutlineCheck className="good" />
+                </div>
+
+                <p>Instant Transfer</p>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div className="send_right">
-          <img src={transactions} alt="" />
+          <div className="send_right">
+            <img src={transactions} alt="" />
+          </div>
         </div>
       </div>
     </section>

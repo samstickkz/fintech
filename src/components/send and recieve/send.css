@@ -3,7 +3,7 @@
   height: 30rem;
 
   overflow: hidden;
-  padding: 0rem 1.5rem 0rem 1.5rem;
+  padding: 1rem 1.5rem 0rem 1.5rem;
 }
 
 .lower_btn {
@@ -14,12 +14,10 @@
 }
 
 .send {
+  padding-top: 128px;
   justify-content: space-between;
   display: flex;
   grid-template-columns: 50% 50%;
-  background: var(--color-primary-variant);
-
-  margin-bottom: 2rem;
 }
 
 .send .icons_color {
@@ -27,24 +25,48 @@
 }
 
 #send {
-  margin-top: 144px;
+  /* margin-top: 144px; */
 }
 
 .send_left {
   line-height: normal;
 }
 
-p {
+.send_left h2 {
   margin-top: 16px;
   margin-bottom: 16px;
+  font-size: 64px;
+}
+
+.send_left p {
+  font-size: 20px;
+  font-weight: 100;
 }
 
 .send_list {
-  display: grid;
-  /* grid-template-columns: 1fr 1fr; */
+  font-size: 18px;
 }
 .send_list div {
   display: flex;
   gap: 1rem;
   align-items: center;
+}
+
+.sendi {
+  height: 638px;
+  background: var(--color-primary-variant);
+}
+
+.good {
+  color: white;
+}
+
+.good-bg {
+  background: var(--color-primary);
+  width: 26px;
+  height: 26px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
