@@ -3,6 +3,7 @@ import Nav from "./components/nav/Nav";
 import Homepage from "./components/homepage/homepage";
 import Banking from "./components/banking/banking";
 import Send from "./components/send and recieve/send";
+import Savings from "./components/saving/saving";
 
 const app = () => {
   return (
@@ -11,6 +12,7 @@ const app = () => {
       <Homepage />
       <Banking />
       <Send />
+      <Savings />
     </>
   );
 };

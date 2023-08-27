@@ -1,0 +1,55 @@
+.allf {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.allf small {
+  color: var(--color-primary);
+}
+
+.saving-top h2 {
+  font-size: 64px;
+  line-height: normal;
+}
+.box-blue {
+  height: 214px;
+  width: 214px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+}
+
+.icon-h {
+  height: 64px;
+  width: 64px;
+}
+.saving-bottom {
+  margin-top: 64px;
+  display: flex;
+  line-height: normal;
+  gap: 1rem;
+}
+
+.saving-bottom small {
+  font-size: 14px;
+}
+.pink {
+  background: #f1dfdf;
+}
+
+.bluer {
+  background: #dfe1f1;
+}
+
+.ash {
+  background: #dfebf1;
+}
+.fade {
+  background: #f8f8f8;
+}
+
+.blue {
+  background: var(--color-primary-variant);
+}
