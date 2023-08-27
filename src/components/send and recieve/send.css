@@ -1,11 +1,16 @@
 .send_right {
-  width: 22rem;
-  height: 30rem;
-
+  width: 400px;
+  height: 578px;
   overflow: hidden;
-  padding: 1rem 1.5rem 0rem 1.5rem;
+  display: flex; /* Use flexbox */
+  align-items: flex-end;
 }
-
+.send_right img {
+  max-width: 100%; /* Make sure the image doesn't exceed the container */
+  max-height: 100%; /* Make sure the image doesn't exceed the container */
+  width: auto;
+  height: auto;
+}
 .lower_btn {
   margin-top: 64px;
   gap: 1rem;
@@ -14,7 +19,7 @@
 }
 
 .send {
-  padding-top: 128px;
+  padding-top: 120px;
   justify-content: space-between;
   display: flex;
   grid-template-columns: 50% 50%;
@@ -22,10 +27,6 @@
 
 .send .icons_color {
   color: var(--color-primary);
-}
-
-#send {
-  /* margin-top: 144px; */
 }
 
 .send_left {
@@ -55,6 +56,7 @@
 .sendi {
   height: 638px;
   background: var(--color-primary-variant);
+  position: relative;
 }
 
 .good {

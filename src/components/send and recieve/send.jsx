@@ -1,9 +1,7 @@
 import React from "react";
-import { GrStatusGood } from "react-icons/gr";
-import { GiLightningFrequency } from "react-icons/gi";
-import { AiOutlineCheckCircle } from "react-icons/ai";
+
 import { AiOutlineCheck } from "react-icons/ai";
-import transactions from "../../assets/transactions.jpg";
+import transactions from "../../assets/transactions.png";
 import "./send.css";
 const Send = () => {
   return (
