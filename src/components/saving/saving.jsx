@@ -73,7 +73,6 @@ const Savings = () => {
           </div>
         </div>
       </div>
-      ;
     </section>
   );
 };
