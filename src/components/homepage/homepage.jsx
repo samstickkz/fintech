@@ -1,5 +1,5 @@
 import React from "react";
-import cards from "../../assets/cards.png";
+import cards from "../../assets/cardss.jpg";
 import "./homepage.css";
 import { GrStatusGood } from "react-icons/gr";
 import { AiOutlineArrowRight } from "react-icons/ai";

@@ -1,0 +1,78 @@
+.m-logo {
+  width: 722px;
+  height: 136px;
+}
+
+.noti_right {
+  width: 400px;
+  height: 578px;
+  overflow: hidden;
+}
+
+.logo {
+  justify-content: space-between;
+  display: flex;
+  grid-template-columns: 50% 50%;
+}
+
+.logo .icons_color {
+  color: var(--color-primary);
+}
+
+.logo_left {
+  line-height: normal;
+}
+
+.logo_left h2 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-size: 64px;
+}
+
+.noti_left p {
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.noti_list {
+  font-size: 16px;
+}
+.noti_list div {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.notifi {
+  height: 638px;
+}
+
+.goood {
+  color: var(--color-primary);
+}
+
+.goood-bg {
+  background: var(--color-primary-variant);
+  width: 26px;
+  height: 26px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.compare {
+  margin-top: 48px;
+  color: var(--color-primary);
+  font-weight: 400;
+}
+
+.logo_right {
+  display: flex;
+  align-items: flex-end;
+  margin-right: 135px;
+}
+
+.logo-down {
+  margin-top: 64px;
+}
