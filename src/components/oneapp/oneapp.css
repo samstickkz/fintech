@@ -1,0 +1,30 @@
+.oneapp {
+  background: var(--color-primary);
+  height: 610px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-right: 112px;
+  padding-left: 112px;
+  color: white;
+  border-radius: 10px;
+}
+
+.divi-right {
+  height: 497px;
+  width: 380px;
+}
+
+.divi-left {
+  margin-bottom: 96px;
+  align-items: center;
+  justify-content: center;
+}
+
+.divi-left h2 {
+  font-size: 64px;
+  line-height: normal;
+}
+
+.divi-left p {
+}

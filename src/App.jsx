@@ -8,6 +8,8 @@ import Notification from "./components/notification/notification";
 import Logofi from "./components/logo-fi/logofi";
 import Cards from "./components/cards/cards";
 import Testimonails from "./components/Testimonals/testimonials";
+import Oneapp from "./components/oneapp/oneapp";
+// import NeedHelp from "./components/need_help/NeedHelp";
 
 const app = () => {
   return (
@@ -21,6 +23,8 @@ const app = () => {
       <Logofi />
       <Cards />
       <Testimonails />
+      <Oneapp />
+      {/* <NeedHelp /> */}
     </>
   );
 };
