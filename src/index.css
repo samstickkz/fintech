@@ -108,6 +108,9 @@ a {
 .btn_primary {
   background-color: white;
   color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
 }
 
 img {
