@@ -1,0 +1,50 @@
+.send_right {
+  width: 22rem;
+  height: 30rem;
+
+  overflow: hidden;
+  padding: 0rem 1.5rem 0rem 1.5rem;
+}
+
+.lower_btn {
+  margin-top: 64px;
+  gap: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.send {
+  justify-content: space-between;
+  display: flex;
+  grid-template-columns: 50% 50%;
+  background: var(--color-primary-variant);
+
+  margin-bottom: 2rem;
+}
+
+.send .icons_color {
+  color: var(--color-primary);
+}
+
+#send {
+  margin-top: 144px;
+}
+
+.send_left {
+  line-height: normal;
+}
+
+p {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.send_list {
+  display: grid;
+  /* grid-template-columns: 1fr 1fr; */
+}
+.send_list div {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}

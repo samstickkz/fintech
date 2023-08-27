@@ -8,18 +8,18 @@ const Banking = () => {
       <div className="container banking-con">
         <div className="div-left">
           <div className="left-features">
-            {" "}
             <h2>
               One app. <br /> One banking.
             </h2>
           </div>
           <div className="left-features">
-            {" "}
             <h2></h2>
           </div>
           {/* the boxes starts here */}
           <div className="box-features">
-            <GiLightningFrequency className="ltn" />
+            <div className="ltn-box">
+              <GiLightningFrequency className="ltn" />
+            </div>
             <h4>Instant transactions</h4>
             <p>
               Odio euismod lacinia at quis. Amet purus gravida quis blandit
@@ -27,39 +27,50 @@ const Banking = () => {
             </p>
           </div>
           <div className="box-features">
-            <GiLightningFrequency className="ltn" />
+            <div className="ltn-box">
+              <GiLightningFrequency className="ltn" />
+            </div>
+
             <h4>Instant transactions</h4>
             <p>
               Odio euismod lacinia at quis. Amet purus gravida quis blandit
               turpis.
             </p>
-          </div>{" "}
+          </div>
           <div className="box-features">
-            <GiLightningFrequency className="ltn" />
+            <div className="ltn-box">
+              <GiLightningFrequency className="ltn" />
+            </div>
             <h4>Instant transactions</h4>
             <p>
               Odio euismod lacinia at quis. Amet purus gravida quis blandit
               turpis.
             </p>
-          </div>{" "}
+          </div>
           <div className="box-features">
-            <GiLightningFrequency className="ltn" />
+            <div className="ltn-box">
+              <GiLightningFrequency className="ltn" />
+            </div>
             <h4>Instant transactions</h4>
             <p>
               Odio euismod lacinia at quis. Amet purus gravida quis blandit
               turpis.
             </p>
-          </div>{" "}
+          </div>
           <div className="box-features">
-            <GiLightningFrequency className="ltn" />
+            <div className="ltn-box">
+              <GiLightningFrequency className="ltn" />
+            </div>
             <h4>Instant transactions</h4>
             <p>
               Odio euismod lacinia at quis. Amet purus gravida quis blandit
               turpis.
             </p>
-          </div>{" "}
+          </div>
           <div className="box-features">
-            <GiLightningFrequency className="ltn" />
+            <div className="ltn-box">
+              <GiLightningFrequency className="ltn" />
+            </div>
             <h4>Instant transactions</h4>
             <p>
               Odio euismod lacinia at quis. Amet purus gravida quis blandit

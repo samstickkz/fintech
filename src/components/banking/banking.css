@@ -33,3 +33,26 @@
 .ltn {
   color: var(--color-primary);
 }
+
+.ltn-box {
+  background: var(--color-primary-variant);
+  width: 2rem;
+  height: 2rem;
+  border-radius: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-features h4 {
+  margin-top: 2rem;
+}
+
+.box-features p {
+  font-size: small;
+}
+
+.left-features h2 {
+  font-size: xx-large;
+}
