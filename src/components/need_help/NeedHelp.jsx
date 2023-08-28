@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./NeedHelp.css";
-import { AiOutlineCheck } from "react-icons/ai";
+
 import { AiOutlinePlus } from "react-icons/ai";
 import { FiPhoneCall } from "react-icons/fi";
 import { BsArrowReturnRight } from "react-icons/bs";

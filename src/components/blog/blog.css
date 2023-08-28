@@ -1,0 +1,28 @@
+.blog-img {
+  width: 350px;
+  height: 350px;
+  border-radius: 16px;
+}
+.blog-img-box {
+  width: 378px;
+}
+.blog-down {
+  width: 20%;
+  display: flex;
+  gap: 1rem;
+}
+
+.blog-tag {
+  display: flex;
+  gap: 1rem;
+}
+
+.blog-up {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: ;
+}
+
+.blog-up h2 {
+  font-size: 64px;
+}

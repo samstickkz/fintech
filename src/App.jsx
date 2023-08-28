@@ -10,6 +10,7 @@ import Cards from "./components/cards/cards";
 import Testimonails from "./components/Testimonals/testimonials";
 import Oneapp from "./components/oneapp/oneapp";
 import NeedHelp from "./components/need_help/NeedHelp";
+import Blog from "./components/blog/blog";
 
 const app = () => {
   return (
@@ -25,6 +26,7 @@ const app = () => {
       <Testimonails />
       <Oneapp />
       <NeedHelp />
+      <Blog />
     </>
   );
 };
