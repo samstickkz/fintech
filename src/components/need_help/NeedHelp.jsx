@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import "./NeedHelp.css";
 import { AiOutlineCheck } from "react-icons/ai";
 import { AiOutlinePlus } from "react-icons/ai";
+import { FiPhoneCall } from "react-icons/fi";
+import { BsArrowReturnRight } from "react-icons/bs";
 
 const NeedHelp = () => {
   const [accordionStates, setAccordionStates] = useState(
@@ -19,25 +21,31 @@ const NeedHelp = () => {
       <div className="container helpdvi">
         <div className="help-left">
           <h2>Need help?</h2>
-          <div>
-            <div className="goood-bg">
-              <AiOutlineCheck className="goood" />
+          <div className="numb">
+            <div className="goood-bg call-bg">
+              <FiPhoneCall className="goood" />
             </div>
-            <div>
-              <small>+2347032346910</small>
-              <small>+2347032346910</small>
-            </div>
-          </div>
-          <div>
-            <div className="goood-bg">
-              <AiOutlineCheck className="goood" />
-            </div>
-            <div>
-              <small>+2347032346910</small>
-              <small>+2347032346910</small>
+            <div className="numb2">
+              <div className="phone-number">
+                <small>+2347032346910</small>
+                <small>+2347032346910</small>
+              </div>
             </div>
           </div>
-          <small>Support</small> <AiOutlineCheck className="goood" />
+          <div className="numb">
+            <div className="goood-bg call-bg">
+              <FiPhoneCall className="goood" />
+            </div>
+            <div className="numb2">
+              <div className="phone-number">
+                <small>+2347032346910</small>
+                <small>+2347032346910</small>
+              </div>
+            </div>
+          </div>
+          <div className="sup">
+            <small>Support</small> <BsArrowReturnRight className="goood" />
+          </div>
         </div>
         <div className="help-right">
           <div className="acc-pad">
