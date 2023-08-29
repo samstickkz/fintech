@@ -26,3 +26,7 @@
 .blog-up h2 {
   font-size: 64px;
 }
+
+.blog-img-box p {
+  font-size: smaller;
+}

@@ -27,7 +27,7 @@ const Blog = () => {
             </p>
             <div className="blog-tag">
               <button className="btn"> Bitcoin</button>
-              <button className="btn"> Bitcoin</button>
+              <button className="btn_primary"> Bitcoin</button>
             </div>
           </div>
           <div className="blog-img-box">
@@ -43,7 +43,7 @@ const Blog = () => {
             </p>
             <div className="blog-tag">
               <button className="btn"> Bitcoin</button>
-              <button className="btn"> Bitcoin</button>
+              <button className="btn_primary"> Bitcoin</button>
             </div>
           </div>{" "}
           <div className="blog-img-box">
@@ -59,7 +59,7 @@ const Blog = () => {
             </p>
             <div className="blog-tag">
               <button className="btn"> Bitcoin</button>
-              <button className="btn"> Bitcoin</button>
+              <button className="btn_primary"> Bitcoin</button>
             </div>
           </div>
         </div>

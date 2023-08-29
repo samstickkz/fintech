@@ -11,6 +11,7 @@ import Testimonails from "./components/Testimonals/testimonials";
 import Oneapp from "./components/oneapp/oneapp";
 import NeedHelp from "./components/need_help/NeedHelp";
 import Blog from "./components/blog/blog";
+import Footer from "./components/Footer/foot";
 
 const app = () => {
   return (
@@ -27,6 +28,7 @@ const app = () => {
       <Oneapp />
       <NeedHelp />
       <Blog />
+      <Footer />
     </>
   );
 };
