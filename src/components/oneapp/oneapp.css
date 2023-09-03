@@ -1,6 +1,5 @@
 .oneapp {
   background: var(--color-primary);
-  height: 610px;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -26,5 +25,45 @@
   line-height: normal;
 }
 
-.divi-left p {
+@media screen and (max-width: 1024px) {
+  .oneapp {
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #oneapp {
+    margin-bottom: 10rem;
+  }
+  .oneapp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    text-align: center;
+  }
+
+  .divi-left h2 {
+    font-size: 32px;
+  }
+
+  .divi-left p {
+    font-size: 14px;
+  }
+
+  .divi-right {
+    height: auto;
+    width: 100%;
+  }
+
+  .items_list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn {
+    margin-top: 16px;
+  }
 }

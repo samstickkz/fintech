@@ -63,3 +63,36 @@
 .rate-text small {
   margin: 0.3rem;
 }
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-md);
+  }
+
+  section {
+    margin-top: 6rem;
+    height: 100vh;
+  }
+}
+
+/* ==== small devices*/
+
+@media screen and (max-width: 600px) {
+  #testimonials {
+    display: none;
+  }
+  .test-down {
+    margin-top: 32px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* 3 columns */
+    gap: 20px;
+  }
+  .container {
+    width: var(--container-width-sm);
+  }
+  .test-up h2 {
+    font-size: 32px;
+  }
+  section > h2 {
+    margin-bottom: 2rem;
+  }
+}

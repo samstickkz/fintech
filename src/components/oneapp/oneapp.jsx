@@ -1,13 +1,12 @@
 import React from "react";
 import "./oneapp.css";
 import { GrStatusGood } from "react-icons/gr";
-
 import { AiOutlineCheck } from "react-icons/ai";
 import appp from "../../assets/appp.png";
 
 const Oneapp = () => {
   return (
-    <section>
+    <section id="oneapp">
       <div className="container oneapp">
         <div className="divi-left">
           <h2>
@@ -26,12 +25,10 @@ const Oneapp = () => {
             </div>
             <div className="test onetap">
               <AiOutlineCheck className="oneai" />
-
               <p>Instant Transfer</p>
             </div>
             <div>
               <AiOutlineCheck className="oneai" />
-
               <p>Instant Transfer</p>
             </div>
             <div>
@@ -45,7 +42,7 @@ const Oneapp = () => {
           </div>
         </div>
         <div className="divi-right">
-          <img src={appp} />
+          <img src={appp} alt="App Screenshot" />
         </div>
       </div>
     </section>

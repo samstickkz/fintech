@@ -4,7 +4,7 @@ import { BsStarFill } from "react-icons/bs";
 
 const Testimonails = () => {
   return (
-    <section>
+    <section id="testimonials">
       <div className="container">
         <div className="test-up">
           <small className="test-small">Testimonails</small>

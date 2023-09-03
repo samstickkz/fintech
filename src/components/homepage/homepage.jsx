@@ -3,6 +3,7 @@ import cards from "../../assets/cardss.jpg";
 import "./homepage.css";
 import { GrStatusGood } from "react-icons/gr";
 import { AiOutlineArrowRight } from "react-icons/ai";
+
 const Homepage = () => {
   return (
     <section id="homepage">
@@ -24,12 +25,10 @@ const Homepage = () => {
             </div>
             <div className="test">
               <GrStatusGood className="icons_col" />
-
               <p>Instant Transfer</p>
             </div>
             <div>
               <GrStatusGood className="icons_clors" />
-
               <p>Instant Transfer</p>
             </div>
             <div>

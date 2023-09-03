@@ -10,9 +10,9 @@
 }
 
 .logo {
-  justify-content: space-between;
+  /* justify-content: space-between;
   display: flex;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 50% 50%; */
 }
 
 .logo .icons_color {
@@ -75,4 +75,14 @@
 
 .logo-down {
   margin-top: 64px;
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 600px) {
+  .m-logo {
+    width: 360px;
+    height: 65px;
+  }
 }

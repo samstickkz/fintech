@@ -32,3 +32,36 @@
 .one {
   margin-right: 1rem;
 }
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-md);
+  }
+
+  section {
+    margin-top: 6rem;
+    height: 100vh;
+  }
+}
+
+/* ==== small devices*/
+
+@media screen and (max-width: 600px) {
+  .card-img {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card h2 {
+    font-size: 35px;
+  }
+  .container {
+    width: var(--container-width-sm);
+  }
+
+  section > h2 {
+    /* margin-bottom: 2rem; */
+  }
+}

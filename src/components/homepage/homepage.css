@@ -59,3 +59,41 @@ p {
   display: flex;
   align-items: center;
 }
+/* Keep your existing styles above */
+
+/* Add these media queries for mobile responsiveness */
+@media screen and (max-width: 768px) {
+  .homepagec {
+    flex-direction: column-reverse; /* Stack home_right below home_left */
+  }
+
+  .home_left {
+    text-align: center; /* Center-align text on small screens */
+  }
+
+  .home_left h1 {
+    font-size: 24px; /* Reduce font size for headings */
+  }
+
+  .items_list {
+    grid-template-columns: 1fr 1fr; /* Display icons in a 2-column grid */
+  }
+
+  .home_right {
+    width: 100%; /* Make the image take the full width */
+    height: auto; /* Allow the image to scale proportionally */
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .lower_btn {
+    flex-direction: column; /* Stack button and link on top of each other */
+    margin-top: 16px;
+  }
+
+  .lower_btn button,
+  .lower_btn .comp {
+    width: 100%; /* Make buttons and links full width on small screens */
+    text-align: center;
+  }
+}
