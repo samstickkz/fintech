@@ -80,4 +80,14 @@
   #sendy {
     margin-top: 40rem;
   }
+
+  .send_right img {
+    display: none;
+  }
+
+  .send_left h2 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 32px;
+  }
 }

@@ -58,3 +58,47 @@
   height: 64px;
   width: 64px;
 }
+
+@media screen and (max-width: 1024px) {
+  .oneapp {
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #oneapp {
+    margin-bottom: 10rem;
+  }
+  .allf {
+    display: flex;
+    flex-direction: column !important ;
+  }
+
+  .saving-bottom {
+    margin-top: 64px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .airplane {
+    height: 32px;
+    width: 32px;
+  }
+
+  .box-blue {
+    height: 107px;
+    width: 107px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+  }
+
+  .saving-top h2 {
+    font-size: 32px;
+    line-height: normal;
+  }
+}

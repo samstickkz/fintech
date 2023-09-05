@@ -66,7 +66,15 @@
 
 @media screen and (max-width: 600px) {
   #banking {
-    margin-bottom: 50rem;
+    margin-top: 10rem;
+  }
+
+  .div-right {
+    width: 140px;
+    height: 350px;
+  }
+  #banking {
+    margin-bottom: 45rem;
   }
   .banking-con {
     display: flex;
