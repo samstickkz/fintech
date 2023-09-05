@@ -56,3 +56,21 @@
 .left-features h2 {
   font-size: xx-large;
 }
+
+@media screen and (max-width: 1024px) {
+  .oneapp {
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #banking {
+    margin-bottom: 50rem;
+  }
+  .banking-con {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}

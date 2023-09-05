@@ -5,6 +5,7 @@
   justify-content: space-between;
   padding-top: 97px;
   padding-bottom: 80px;
+  background: var(--color-primary);
 }
 
 .about-items {
@@ -29,5 +30,13 @@
 }
 
 span {
-  color: var(--color-primary);
+  color: white;
+}
+
+#footer {
+  background: var(--color-primary);
+}
+
+.logo p {
+  color: white;
 }

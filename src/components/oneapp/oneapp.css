@@ -37,14 +37,14 @@
     margin-bottom: 10rem;
   }
   .oneapp {
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
     align-items: center;
     padding: 32px;
     text-align: center;
   }
 
-  .divi-left h2 {
+  /* .divi-left h2 {
     font-size: 32px;
   }
 
@@ -65,5 +65,5 @@
 
   .btn {
     margin-top: 16px;
-  }
+  } */
 }
