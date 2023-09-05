@@ -5,7 +5,7 @@ import "./blog.css";
 
 const Blog = () => {
   return (
-    <section>
+    <section id="blog">
       <div className="container">
         <div className=" blog-up">
           <h2>Blog</h2>
