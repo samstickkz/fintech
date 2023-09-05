@@ -69,3 +69,15 @@
   align-items: center;
   color: var(--color-primary);
 }
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 600px) {
+  #needhelp {
+    display: none;
+  }
+  .helpdvi {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -17,7 +17,7 @@ const NeedHelp = () => {
   };
 
   return (
-    <section>
+    <section id="needhelp">
       <div className="container helpdvi">
         <div className="help-left">
           <h2>Need help?</h2>
