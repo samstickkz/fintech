@@ -13,7 +13,7 @@ const Logofi = () => {
       </div>
       <div className="logo-down">
         <div className="logofi">
-          <div className="noti">
+          <div className="noti notim">
             <div className="logo_left">
               <small>Tools</small>
               <h2>

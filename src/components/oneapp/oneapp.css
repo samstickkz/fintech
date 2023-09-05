@@ -33,14 +33,23 @@
 }
 
 @media screen and (max-width: 600px) {
+  .divi-left h2 {
+    font-size: 32px;
+    line-height: normal;
+  }
+
   #oneapp {
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
   }
   .oneapp {
-    /* display: flex; */
-    /* flex-direction: column; */
+    display: flex;
+    flex-direction: column;
     align-items: center;
     padding: 32px;
     text-align: center;
+  }
+  .divi-right {
+    height: 248px;
+    width: 190px;
   }
 }

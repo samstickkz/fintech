@@ -81,6 +81,10 @@
 }
 
 @media screen and (max-width: 600px) {
+  .notim {
+    display: flex;
+    flex-direction: column;
+  }
   .m-logo {
     width: 360px;
     height: 65px;

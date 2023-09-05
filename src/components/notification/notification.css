@@ -77,3 +77,15 @@
   color: var(--color-primary);
   font-weight: 400;
 }
+@media screen and (max-width: 1024px) {
+  .oneapp {
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .noti_right {
+    display: none;
+  }
+}
